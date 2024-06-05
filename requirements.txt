@@ -1,0 +1,8 @@
+tensorflow
+keras
+opencv-python
+dlib
+numpy
+pandas
+matplotlib
+pillow
