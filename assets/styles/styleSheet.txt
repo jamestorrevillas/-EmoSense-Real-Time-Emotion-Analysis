@@ -1,0 +1,77 @@
+----- COLORED BUTTON -----
+QPushButton {
+    background-color: #011BA1;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #00008B;
+    color: #fff;
+}
+
+QPushButton:pressed {
+    background-color: #000070; 
+    color: #fff;
+}
+
+
+
+
+
+----- TRANSPARENT BUTTON -----
+QPushButton {
+    background-color: #FFF;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #EEE; 
+    color: #000;
+}
+
+QPushButton:pressed {
+    background-color: #CCC;  
+    color: #000;
+}
+
+
+
+
+
+----- CLICKABLE LABEL -----
+QLabel {
+    background-color: #FFF;
+    color: #000;
+    border: none;
+}
+
+QLabel:hover {
+    color: #011BA1;
+}
+
+
+
+
+----- SCROLL AREA -----
+QScrollArea { 
+background-color: #fafafa;
+border: 1px solid #fafafa;
+border-radius: 10px;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+
+
+
+----- COMBO BOX -----
+background-color: #E5E4E2;
+border-radius: 5px;
+margin-left: 20px;
+padding-left: 20px;
